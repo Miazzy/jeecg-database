@@ -13,7 +13,8 @@ root/********
 `***.she****i.c***`
 
 #### 备份脚本
-`SHELL=/bin/bash
+```
+SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=root
 
@@ -29,4 +30,6 @@ MAILTO=root
 # *  *  *  *  * user-name  command to be executed
 
  0 */1 * * sun-sat root /usr/local/bin/mysqlbkup.sh 1>>/var/log/mysqlbkup.log 2>>/var/log/mysqlbkup-err.log
- 0 */1 * * *       root /var/mysqlbkup/jeecg/start.sh`
+ 0 */1 * * *       root /var/mysqlbkup/jeecg/start.sh
+
+```
